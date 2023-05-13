@@ -1,0 +1,23 @@
+POST http://localhost:4500/api/item
+Content-Type: application/json
+
+{
+    "item": "This is the seconds todo Items"
+}
+
+###
+
+GET  http://localhost:4500/api/item
+Content-Type: application/json
+
+###
+PUT  http://localhost:4500/api/item/645b96fdfd8c731ff9bdc133
+Content-Type: application/json
+
+{
+    "item": "This  Items"
+}
+###
+
+DELETE   http://localhost:4500/api/item/645b96fdfd8c731ff9bdc133
+Content-Type: application/json
